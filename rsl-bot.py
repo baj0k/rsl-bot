@@ -98,11 +98,11 @@ def arenaRun(name):
 
 if __name__ == '__main__':
 
-    arenaRun("classic")
+    #arenaRun("classic")
     # arenaRun("tagteam")
 
     # minotaurRun()
-    # launchGui()
+    launchGui()
 
     # while 1:
     #     click(replay)

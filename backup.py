@@ -31,10 +31,6 @@ def getCoords():
             break
     return pos, diff, name
 
-def killall():
-    for process in ["HD-Player", "HD-MultiInstanceManager"]:
-        os.system("taskkill /f /im " + process + ".exe")
-
 def lunchGui():
     window = Tk()
     window.title("RSL bot")
@@ -43,8 +39,8 @@ def lunchGui():
     # launchBT = Button(window, text="Launch", command=print("haha"))
     # launchBT.grid(column=1, row=0)
 
-    killallBT = Button(window, text="Kill All", command=killall)
-    killallBT.grid(column=2, row=0)
+    # killallBT = Button(window, text="Kill All", command=killall)
+    # killallBT.grid(column=2, row=0)
 
     # coordsBT = Button(window, text="Get Coords", command=print("haha"))
     # coordsBT.grid(column=3, row=0)
