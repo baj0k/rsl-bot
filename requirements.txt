@@ -1,4 +1,0 @@
-pywin32
-keyboard
-pyautogui
-pillow
